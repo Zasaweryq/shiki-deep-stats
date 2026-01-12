@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Shikimori Deep Stats (Anime Only)
-// @namespace    https://github.com/GH_USER/GH_REPO
+// @namespace    https://github.com/Zasaweryq/shiki-deep-stats
 // @version      0.1.0
 // @description  Deep profile stats (anime) with UI + charts
 // @match        https://shikimori.one/*
@@ -16,15 +16,15 @@
 // @require      https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js
 
 // --- Your modules (pin to commit for stability)
-/// @require      https://raw.githubusercontent.com/GH_USER/GH_REPO/COMMIT/src/ns.js
-/// @require      https://raw.githubusercontent.com/GH_USER/GH_REPO/COMMIT/src/utils.js
-/// @require      https://raw.githubusercontent.com/GH_USER/GH_REPO/COMMIT/src/styles.js
-/// @require      https://raw.githubusercontent.com/GH_USER/GH_REPO/COMMIT/src/api_rest.js
-/// @require      https://raw.githubusercontent.com/GH_USER/GH_REPO/COMMIT/src/api_gql.js
-/// @require      https://raw.githubusercontent.com/GH_USER/GH_REPO/COMMIT/src/analytics.js
-/// @require      https://raw.githubusercontent.com/GH_USER/GH_REPO/COMMIT/src/charts.js
-/// @require      https://raw.githubusercontent.com/GH_USER/GH_REPO/COMMIT/src/ui.js
-/// @require      https://raw.githubusercontent.com/GH_USER/GH_REPO/COMMIT/src/main.js
+// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/ns.js
+// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/utils.js
+// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/styles.js
+// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/api_rest.js
+// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/api_gql.js
+// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/analytics.js
+// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/charts.js
+// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/ui.js
+// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/main.js
 // ==/UserScript==
 
 (function () {
