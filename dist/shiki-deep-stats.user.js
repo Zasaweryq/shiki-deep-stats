@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Shikimori Deep Stats (Anime Only)
 // @namespace    https://github.com/Zasaweryq/shiki-deep-stats
-// @version      0.3.0
+// @version      0.4.0
 // @description  Deep profile stats (anime) with UI + charts
 // @match        https://shikimori.one/*
 // @match        https://shikimori.me/*

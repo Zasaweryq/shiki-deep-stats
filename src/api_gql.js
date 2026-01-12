@@ -61,23 +61,25 @@
     const fields = await introspectAnimeFields();
     const selection = pickAnimeSelection(fields);
 
-    // chunk по 50–100, чтобы не делать огромный query
     const chunkSize = 60;
     const out = new Map();
 
     for (let i = 0; i < uniq.length; i += chunkSize) {
       const chunk = uniq.slice(i, i + chunkSize);
 
-      // Shikimori GraphQL обычно имеет query animes(ids:[...]) — если вдруг сломается,
-      // можно будет тоже через introspection Query выяснить поле. Пока оставляем стандарт.
+      // ВАЖНО: Shikimori ожидает ids как String
+      const idsStr = chunk.join(',');
+
       const q = `
-        query($ids: [ID!]) {
+        query($ids: String!) {
           animes(ids: $ids) {
             ${selection}
           }
         }
       `;
-      const data = await gql(q, { ids: chunk });
+
+      const data = await gql(q, { ids: idsStr });
+
       for (const a of (data?.animes || [])) {
         out.set(Number(a.id), a);
       }
