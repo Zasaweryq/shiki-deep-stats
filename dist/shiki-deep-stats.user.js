@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Shikimori Deep Stats (Anime Only)
 // @namespace    https://github.com/Zasaweryq/shiki-deep-stats
-// @version      0.1.0
+// @version      0.2.0
 // @description  Deep profile stats (anime) with UI + charts
 // @match        https://shikimori.one/*
 // @match        https://shikimori.me/*
@@ -16,16 +16,19 @@
 // @require      https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js
 
 // --- Your modules (pin to commit for stability)
-// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/ns.js
-// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/utils.js
-// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/styles.js
-// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/api_rest.js
-// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/api_gql.js
-// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/analytics.js
-// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/charts.js
-// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/ui.js
-// @require      https://github.com/Zasaweryq/shiki-deep-stats/COMMIT/src/main.js
+// @require https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/src/ns.js
+// @require https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/src/utils.js
+// @require https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/src/styles.js
+// @require https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/src/api_rest.js
+// @require https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/src/api_gql.js
+// @require https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/src/analytics.js
+// @require https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/src/charts.js
+// @require https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/src/ui.js
+// @require https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/src/main.js
 // ==/UserScript==
+
+// @downloadURL  https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/dist/shiki-deep-stats.user.js
+// @updateURL    https://raw.githubusercontent.com/Zasaweryq/shiki-deep-stats/main/dist/shiki-deep-stats.user.js
 
 (function () {
   'use strict';
